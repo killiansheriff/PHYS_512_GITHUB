@@ -1,2 +1,2 @@
 # PHYS_512_GITHUB
- McGill Phys 512 Assignments and Codes
+McGill Physics 512 - Comp. Phys and Applications - Assignments and Codes
