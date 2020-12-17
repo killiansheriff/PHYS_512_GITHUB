@@ -2,7 +2,7 @@
 # @Date:   03-Dec-2020
 # @Email:  killian.sheriff@gmail.com / killian.sheriff@mail.mcgill.ca
 # @Last modified by:   Killian
-# @Last modified time: 17-Dec-2020
+# @Last modified time: 18-Dec-2020
 import tools
 import numpy as np
 
@@ -132,7 +132,7 @@ class nbody:
         f_ptcls = fxyz[self.mesh_modified]
         return f_ptcls
 
-    def totalEnergy(self):
+    def get_total_energy(self):
         '''Get total energy of the system.'''
         K = np.sum(self.mass * self.v**2)
         P = -0.5 * np.sum(np.sum(self.get_pot()) * self.densities)
@@ -142,7 +142,7 @@ class nbody:
     def evolve(self, nsteps=1, file_save=None, file_save_pos=None):
         '''Ecolve the system using a leapfrog solver withg fixed timestep.'''
         F = self.get_forces_particles()
-        self.totalEnergy()
+        self.get_total_energy()
         # could implement an higher order scheme with accelerations
         self.r, self.v = tools.evolve(self.r, self.v, self.mass, F, self.dt, self.size[0])
 
