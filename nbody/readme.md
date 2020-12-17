@@ -39,6 +39,7 @@ In this case, energy is relatively well conserved (even though slightly increasi
 <p align="center">
 <img src="./Energies/Energy_Q3_periodic.png">
 </p>
+
 ## Non-Periodic BC:
 All particles collapse towards the point of higher density quicker, as there is nothing counterbalancing on the edges (no periodic boundary conditions). After the collapse, the particles get scattered around again due to softening, and are ejected out of the frame. The energy is thus not well conserved since we are loosing particles.
 
