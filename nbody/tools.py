@@ -96,7 +96,7 @@ def create_gif(folder_name, niter, freq, duration):
 
 def plot_energy(PKL_file):
     _, energy = pickle.load(open(PKL_file, "rb"))
-    plt.figure()
+    plt.figure(figsize=(8,5))
     plt.plot(energy)
     plt.ylabel('Energy')
     plt.xlabel('Iterations')
@@ -106,7 +106,7 @@ def plot_energy(PKL_file):
 
 def plot_2D_trajectory(PKL_file, name):
     posi, energy = pickle.load(open(PKL_file, "rb"))
-    f, ax = plt.subplots()
+    f, ax = plt.subplots(figsize=(8,5))
     for j in range(len(posi)):
         if j % 1 == 0:
             data = []
