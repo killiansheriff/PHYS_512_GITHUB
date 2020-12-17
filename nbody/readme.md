@@ -4,7 +4,7 @@ The aim of the project is to make a 3-D nbody code that calculates the forces by
 
 For each questions, I will provide a 3D animation of the particles trajectories and graph of the total system energy vs iterations. Unfortunately the positions and energy arrays I saved were too big for upload, but if you need the data just shoot me an email (killian.sheriff@mail.mcgill.ca).
 
-Each initial conditions and additional comments can be found in the files Q{X}.py, X being the question number, as well as in the particle.py and nbody.py files where I defined useful classes for the simulations.
+Each initial conditions and additional comments can be found in the files Q{X}.py, X being the question number, as well as in the particle.py, nbody.py and tools.py files where I defined useful classes and functions for the simulations.
 
 Have a nice winter break! :)
 
