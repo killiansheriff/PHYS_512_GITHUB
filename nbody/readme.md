@@ -12,9 +12,9 @@ Have a nice winter break! :)
 A single particle starting at rest, remains motionless. The simulation was run on a 100x100x100 grid with time step 1 and 100 iterations. The energy is well conserved, the fluctuations are small.
 
 <img src="./gifs/Q1.gif">
-
-<img align="center" src="./Energies/Energy_Q1.png">
-
+<p align="center">
+<img src="./Energies/Energy_Q1.png">
+</p>
 # Question 2:
 The pair is separated by 10 units in the x direction. Particle 1 had initial velocity (0,0.5,0) and particle 2 (0,-0.5,0). The softening constant was set to 1.
 Note however that the trajectory of the particle are not perfectly circular, and that, after a certain time, keeping them in orbit is difficult. This is probably because the forces felt by the bodies are determined by the potential at grid points. However, we can only approximate a perfect circle with squares. Thus, our non-infinite grid size implies that the potential of their circular path is not perfect and so the bodies can be attracted by other grid cells, thus eventually making the orbit bigger and breaking it. Considering the grid size of 100x100x100, the energy looks well preserved.
