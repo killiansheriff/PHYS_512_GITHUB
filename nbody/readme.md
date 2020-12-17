@@ -31,7 +31,7 @@ Note however that the trajectory of the particle are not perfectly circular, and
 The particles group in clusters. A lot of smaller structures resembling stars or galaxies are formed. As times goes, they grow into bigger clusters until they all collapse in one big "blob". Finally they disoveld due to the softening: the blob "explodes" since due to softening, the particles do not feel a force when they are too close, and just pass right through each other at high speed.
 In this case, energy is relatively well conserved (even though slightly increasing), as expected since all particle are conserved.
 
-<img src="./gifs/Q3_periodic.gif">
+<img src="./gifs/Q3_Periodic.gif">
 <img src="./Energies/Energy_Q3_periodic.png">
 
 ## Non-Periodic BC
