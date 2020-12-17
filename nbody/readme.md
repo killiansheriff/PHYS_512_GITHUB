@@ -13,7 +13,7 @@ A single particle starting at rest, remains motionless. The simulation was run o
 
 <img src="./gifs/Q1.gif">
 
-<img src="./Energies/Energy_Q1.png">
+<img img align="center" src="./Energies/Energy_Q1.png">
 
 # Question 2:
 The pair is separated by 10 units in the x direction. Particle 1 had initial velocity (0,0.5,0) and particle 2 (0,-0.5,0). The softening constant was set to 1.
