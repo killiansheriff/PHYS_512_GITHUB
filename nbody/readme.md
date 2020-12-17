@@ -31,15 +31,15 @@ Note however that the trajectory of the particle are not perfectly circular, and
 The particles group in clusters. A lot of smaller structures resembling stars or galaxies are formed. As times goes, they grow into bigger clusters until they all collapse in one big "blob". Finally they disoveld due to the softening: the blob "explodes" since due to softening, the particles do not feel a force when they are too close, and just pass right through each other at high speed.
 In this case, energy is relatively well conserved (even though slightly increasing), as expected since all particle are conserved.
 
-<img src="./gifs/Q3_Periodic.gif">
-<img src="./Energies/Energy_Q3_Periodic.gif">
+<img src="./gifs/Q3_periodic.gif">
+<img src="./Energies/Energy_Q3_periodic.png">
 
 ## Non-Periodic BC
 All particles collapse towards the point of higher density quicker, as there is nothing counterbalancing on the edges (no periodic boundary conditions). After the collapse, the particles get scattered around again due to softening, and are ejected out of the frame. The energy is thus not well conserved since we are loosing particles.
 
 <img src="./gifs/Q3_non_periodic.gif">
 
-<img src="./Energies/Energy_Q3_non_periodic.gif">
+<img src="./Energies/Energy_Q3_non_periodic.png">
 
 # Question 4:
 We scaled the masses of the particle proportionally to the power spectrum. Again, we used 100 000 particles, 100x100x100 grid, but this time a way higher dt (400) as the structures are way more stable. The softening was set to 10. It is run for 1000 iterations.
@@ -48,4 +48,4 @@ The energy looks well conserved.
 
 <img src="./gifs/Q4.gif">
 
-<img src="./Energies/Energy_Q4.gif">
+<img src="./Energies/Energy_Q4.png">
